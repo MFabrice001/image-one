@@ -1,0 +1,149 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e5e7eb;
+}
+.container{
+    background-color: #e5e7eb;
+    max-width: 1500px;
+    height: 410px;
+    font-family: "roboto",sans-serif
+}
+.para{
+    padding: 1rem;
+    margin-left: 250px;
+    margin-right: 100px;
+}
+.ttt{
+    padding: 1rem;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.footer,ul,li{
+    background-color: #1f2937;
+    max-width: 2800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    padding-left: 1.2rem;
+    margin 0;
+}
+main{
+    padding: 0.5rem;
+}
+nav{
+    margin-left: 258px;
+    padding: 0.2rem;
+}
+a{
+    color: white;
+}
+a:hover{
+    background-color: black;
+    color:orange;
+}
+cursor{
+    background-color: black;
+    color: black;
+}
+div.box{
+    width: 100px;
+    height: 70px;
+    float: left;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 470px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 650px;
+    margin-bottom: 400px;
+    margin-right: 500px;
+}
+button, a:hover{
+    background-color: black;
+    color: chocolate;
+}
+.container2{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 380px;
+    font-family: "roboto",sans-serif
+}
+div.fish{
+    width: 400px;
+    height: 200px;
+    float: left;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    border-image: fill;
+    border-color: black;
+}
+.word{
+    background-color: darkcyan;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 500px;
+}
+div.cow{
+    max-width: 400px;
+    height: 200px;
+    float: right;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 250px;
+}
+div.goat{
+    max-width: 300px;
+    max-height: 200px;
+    float: none;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 400px;
+    flex-direction: row;
+    justify-content: center;
+
+.quote{
+    color: #e5e7eb;
+    margin-left: 400px;
+    font-size: 40px;
+    padding: 1rem;
+    font-style: italic;
+}
+.another{
+    color: blueviolet;
+    margin-left: 240px;
+    padding: 0.5rem;
+}
+.final{
+    color: black;
+    background-color: sandybrown;
+    width: 250px;
+    margin-left: 500px;
+    margin-top: 40px;
+    border-radius: 5rem;
+    padding-left: 9rem;
+}
+button:hover{
+    color: white;
+}
